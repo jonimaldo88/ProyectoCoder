@@ -1,0 +1,74 @@
+/*importante prueba*/ 
+/*compilacion de prueba correcta*/
+
+/*variables*/
+$rojo: red;
+$titulo-fuentes: normal 24px 'open sans', sans-serif;
+
+div {
+    width: 100%;
+    height: 400px;
+    background-color: $rojo;
+    padding: 15px;
+    p {
+        font-size: 20px;
+        color: red;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        a {
+            color: rgb(29, 9, 29);
+            font-weight: bold;
+            font-family: monospace;
+            text-decoration: none;
+        }
+    }
+}
+ul {
+    list-style: none;
+    li{
+        margin: 5px;
+        padding: 5px;
+        color: aqua;
+        a{
+            color: blueviolet;
+            font-weight: bold;
+        }
+    }
+}
+ 
+h1 {
+    font: $titulo-fuentes;
+}
+/*bloques*/
+div{
+
+}
+.noticias{
+
+}
+#uno{
+
+}
+/*elemento*/ 
+.noticias__nuevo {
+     margin: 10px;
+}
+/*modificadores*/ 
+.noticias--azul {
+
+}
+.noticias__nuevo--azul {
+     
+}
+/*bem*/ 
+.btn {
+    text-decoration: none;
+    color: gray;
+    border-radius: 5px;
+    display: inline-block;
+     
+}
+.carta {
+    background-color: grey;
+    padding: 20px;
+    text-align: left;
+}

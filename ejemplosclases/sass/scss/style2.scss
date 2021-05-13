@@ -1,0 +1,66 @@
+$rojo: red;
+$titulo-fuente: normal 28px 'roboto',sans-serif,100;
+$ancho: 720px;
+$azul: blue;
+$verde: green;
+
+$animal:loro;
+
+p{
+   @if $animal== gato {
+       color:blue
+       }
+    @else if $animal==perro{
+        color: brown;
+    }
+    @else if $animal==caballo {
+        color: black;
+    } 
+    @else {
+        color: grey;
+    }
+}
+/*bucle*/
+    @for $i from 1 through 4 {
+        .ancho-#{$i} {
+            width: 2rem * $i;
+        }
+    }
+/*each*/
+@each $animales in perro, gato, caballo, loro {
+    .#{$animales} {
+        background-image: url('/imagen/#{$animales}.jpg');
+    }
+}
+/*maps*/
+$redes:(
+    twitter:blue,
+    facebook:red,
+    send-mail:orange,
+    instagram:purple
+);
+@each $red,$colores in $redes {
+    .boton--#{$red} {
+        background-color: $colores;
+    }
+}
+/*extend*/
+.claseUno{
+    border: 1px solid blueviolet;
+    background-color: burlywood;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+.claseUno--modificador{
+ @extend .claseUno; 
+ border: 3px;
+}
+/*mixin*/ 
+@mixin tamaños ($width,$height) {
+    height: $height;
+    width: $width;
+}
+.box {
+    @include tamaños (500px,50px)
+}

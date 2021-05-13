@@ -1,0 +1,12 @@
+En el archivo "index2.html" agregue SEO de la siguiente manera:
+ 
+*Meta description: 
+Agrege un parrafo con una breve descripcion de lo importante para la empresa en su busqueda de captar clientes nuevos por precio y calidad.
+
+*Meta keywords:
+En palabras claves puse los grandes objetivos de mi sitio, para poder mostrar mi producto sin perder el posicionamiento con la competencia directa de otras marcas.
+Use "SILLAS MESAS CALIDAD PRECIOS ECONOMICA VARIEDAD SERVICIO".
+
+*Tittle: 
+Cambie el tittle de todas las paginas del proyecto poniendo su objeto principal en cada una de ellas sin dejar de lado el nombre de la marca que me parece importante remarcar.
+   
