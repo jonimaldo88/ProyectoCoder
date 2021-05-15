@@ -10,7 +10,11 @@ p{
    @if $animal== gato {
        color:blue
        }
+<<<<<<< HEAD
     @else if $animal==perro{
+=======
+    @else if $animal==perro {
+>>>>>>> rama_nueva
         color: brown;
     }
     @else if $animal==caballo {
